@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,15 +18,26 @@
     <!-- header -->
 
     <header>
-      <div class="flex container between" id="box-header">
+      <div class="flex container between relative" id="box-header">
         <!-- list link container-->
-        <nav class="box" id="nav-header"></nav>
+        <img src="img\boolean-logo.png" alt="" id="logo-header" />
+        <nav class="box flex" id="nav-header">
+          <ul class="flex cross-center between">
+            <li>Donna</li>
+            <li>Uomo</li>
+            <li>Bambino</li>
+          </ul>
+        </nav>
         <!-- /list link container-->
         <!-- logo -->
-        <div class="box" id="header-logo"></div>
+
         <!-- /logo -->
         <!-- icon container-->
-        <div class="box" id="icon-header"></div>
+        <div class="box" id="icon-header">
+          <i class="fa-regular fa-user"></i>
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-bag-shopping"></i>
+        </div>
         <!-- /icon cotainer-->
       </div>
     </header>
@@ -32,12 +50,36 @@
       <!-- container card with flex-->
       <div class="flex container" id="box-main">
         <!-- card -->
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
-        <div class="card"></div>
+        <div class="card flex column" id="one">
+          <img src="img\1.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\1b.webp" alt="" />
+        </div>
+        <div class="card" id="two">
+          <img src="img\2.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\2b.webp" alt="" />
+        </div>
+        <div class="card" id="three">
+          <img src="img\3.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\3b.webp" alt="" />
+        </div>
+        <div class="card" id="four">
+          <img src="img\4.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\4b.webp" alt="" />
+        </div>
+        <div class="card" id="five">
+          <img src="img\5.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\5b.webp" alt="" />
+        </div>
+        <div class="card" id="six">
+          <img src="img\6.webp" alt="" />
+          <p>ciao</p>
+          <img src="img\6b.webp" alt="" />
+        </div>
         <!-- card -->
       </div>
       <!-- container card -->
