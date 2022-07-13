@@ -82,6 +82,31 @@ img[src*="b.web"] {
   left: 0;
   top: 0;
 }
+/* Element card */
+del {
+  padding-left: 20px;
+}
+
+.marca {
+  font-size: 0.6em;
+}
+.badges {
+  position: absolute;
+  top: 50%;
+}
+.heart {
+  color: black;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  padding: 2px;
+  background-color: #fff;
+}
+.heart :hover {
+  color: red;
+  z-index: 2;
+}
+/* Element card */
 
 /* /main card */
 
