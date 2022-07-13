@@ -42,7 +42,7 @@ header {
 /* main card */
 #box-main {
   padding: 40px 0;
-  gap: 10px;
+  gap: 30px; /* 20px/2*3 */
 }
 .card {
   width: calc(100% / 3 - 20px);
@@ -82,4 +82,17 @@ footer {
 /* DEBUG */
 .card {
   background-color: rgb(255, 0, 0);
+}
+
+#box-header > .box {
+  width: calc(100% / 5);
+  height: 30px;
+  background-color: aqua;
+}
+
+#box-footer > .box {
+  width: calc(100% / 3);
+  height: 30px;
+  background-color: rgb(0, 255, 34);
+  padding: 0 20px;
 }
