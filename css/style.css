@@ -16,21 +16,70 @@ body {
 
 /***** setting box container ******/
 
-.flex {
-  display: flex;
+/* center principal container of first child of header/main/footer */
+
+.container {
+  width: 90vh;
+  margin: 0 auto;
 }
-.between {
-  justify-content: space-between;
-}
+
+/* /center principal container of first child of header/main/footer */
+
+/*** HEADER ***/
 
 header {
   background-color: hsl(25deg 100% 50%);
 }
 
-/* DEBUG */
-header {
-  height: 100px;
+#box-header {
+  padding: 10px 0;
 }
-/* DEBUG */
+
+/*** HEADER ***/
+
+/*** MAIN ***/
+
+/* main card */
+#box-main {
+  padding: 40px 0;
+  gap: 10px;
+}
+.card {
+  width: calc(100% / 3 - 20px);
+  height: 350px;
+}
+
+/* /main card */
+
+/*** /MAIN ***/
+
+/*** FOOTER ***/
+
+footer {
+  background-color: black;
+}
+
+#box-footer {
+  padding: 17px 0;
+  margin-bottom: ;
+}
+/*** /FOOTER ***/
 
 /***** /setting box container ******/
+
+/***** Utilities *****/
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.between {
+  justify-content: space-between;
+}
+
+/***** /Utilities *****/
+
+/* DEBUG */
+.card {
+  background-color: rgb(255, 0, 0);
+}
