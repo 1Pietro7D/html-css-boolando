@@ -1,0 +1,36 @@
+/***** Generics *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* /reset */
+
+body {
+  font-family: sans-serif, Arial, Helvetica;
+}
+
+/***** /Generics *****/
+
+/***** setting box container ******/
+
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+
+header {
+  background-color: hsl(25deg 100% 50%);
+}
+
+/* DEBUG */
+header {
+  height: 100px;
+}
+/* DEBUG */
+
+/***** /setting box container ******/
